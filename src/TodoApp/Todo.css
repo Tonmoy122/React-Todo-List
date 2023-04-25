@@ -13,3 +13,65 @@ body{
     border-radius: 5px;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
 }
+
+.todo h1{
+    text-align: center;
+}
+.todoForm{
+    display: flex;
+    justify-content: space-around;
+}
+.todoForm input{
+    outline: none;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.todoForm button{
+    outline: none;
+    border: none;
+}
+
+.todoForm svg{
+    color: #497be8;
+    font-size: 45px;
+}
+
+ol{
+    list-style: none;
+}
+
+ol li{
+    color: rgb(1, 74, 74);
+    margin-left: 12px;
+}
+
+.todoList{
+    display: flex;
+    align-items: center;
+}
+
+.edit{
+    background-color: #eaedef;
+    color: #ffa500;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.edit:hover{
+    color: #7d93e0;
+}
+
+.delete{
+    cursor: pointer;
+    background-color: #eaedef;
+    color: #9477af;
+    font-size: 30px;
+}
+
+.delete:hover{
+    color: salmon;
+}
